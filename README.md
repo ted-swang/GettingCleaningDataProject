@@ -21,5 +21,5 @@ When the script run_analysis.R is run in the "UCI HAR Dataset" folder, it takes 
 
 Three data frames are produced by this script:
   1. The "wide" data frame called 'data' where each row consists of measurements of each variable (feature) for a subject and an activity. 
-  2. The "narrow" data frame called 'data_narrow' where each row consists of one measurement from a subject, an activity, and a feature.
-  3. The data frame called 'averages' where each row is the mean value of each variable (feature) for a each activity and each subject.
+  2. The "narrow" data frame called 'data_narrow' where each row consists of one measurement from a subject, an activity, and a feature. This data frame is "tidy" in the sense that each observation is a row and each variable is a column.
+  3. The data frame called 'averages' where each row is the mean value of each variable (feature) for a each activity and each subject. This data frame is also "tidy" in the sense that each observation is a row and each variable is a column.

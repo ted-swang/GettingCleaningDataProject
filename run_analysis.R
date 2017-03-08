@@ -60,3 +60,6 @@ averages <- data_narrow %>%
         mutate(mean = mean(value)) %>%
         select(-value) %>% 
         unique
+
+## output should be the tidy data set of averages
+averages

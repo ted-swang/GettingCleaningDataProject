@@ -115,7 +115,7 @@ Subsequently, this was filtered to include only those features whose names conta
 
 ## Value
 
-The 'value' column in the 'data_narrow' data frame are observations of data. There were 
+The 'value' column in the 'data_narrow' data frame are observations of data. 
 
 The values have been normalized and bounded within [-1, 1].
 

@@ -1,4 +1,4 @@
-### Subject
+## Subject
 
 These data were recorded from 30 subject, labeled with whole numbers from 1 to 30. 
 
@@ -9,18 +9,12 @@ Was read in from the files 'test/subject_test.txt' and 'train/subject_train' in 
 
 These data were recorded while subjects were doing one of six activities:
 
-	* WALKING
-	
-	* WALKING_UPSTAIRS
-	
-	* WALKING_DOWNSTAIRS
-	
-	* SITTING
-	
-	* STANDING
-	
-	* LAYING
-
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 Was read in from the files 'test/y_test.txt' and 'train/y_train.txt' in the original data folder 'UCI HAR Dataset' 
 
@@ -28,7 +22,7 @@ These files contained the numbers of activities. This was subsequently translate
 
 The values in this column are factors.
 
-### Feature
+## Feature
 
 (Information in this section comes from the file 'features_info.txt' in the original data folder 'UCI HAR Dataset')
 
@@ -47,79 +41,79 @@ In the 'data' data frame, each feature is the name of a column, and each row is 
 
 The 66 features recorded include:
 
-	* tBodyAcc.mean.X
-	* tBodyAcc.std.X
-	* tBodyAcc.mean.Y
-	* tBodyAcc.std.Y
-	* tBodyAcc.mean.Z
-	* tBodyAcc.std.Z
-	* tGravityAcc.mean.X
-	* tGravityAcc.std.X
-	* tGravityAcc.mean.Y
-	* tGravityAcc.std.Y
-	* tGravityAcc.mean.Z
-	* tGravityAcc.std.Z
-	* tBodyAccJerk.mean.X
-	* tBodyAccJerk.std.X
-	* tBodyAccJerk.mean.Y
-	* tBodyAccJerk.std.Y
-	* tBodyAccJerk.mean.Z
-	* tBodyAccJerk.std.Z
-	* tBodyGyro.mean.X
-	* tBodyGyro.std.X
-	* tBodyGyro.mean.Y
-	* tBodyGyro.std.Y
-	* tBodyGyro.mean.Z
-	* tBodyGyro.std.Z
-	* tBodyGyroJerk.mean.X
-	* tBodyGyroJerk.std.X
-	* tBodyGyroJerk.mean.Y
-	* tBodyGyroJerk.std.Y
-	* tBodyGyroJerk.mean.Z
-	* tBodyGyroJerk.std.Z
-	* tBodyAccMag.mean
-	* tBodyAccMag.std
-	* tGravityAccMag.mean
-	* tGravityAccMag.std
-	* tBodyAccJerkMag.mean
-	* tBodyAccJerkMag.std
-	* tBodyGyroMag.mean
-	* tBodyGyroMag.std
-	* tBodyGyroJerkMag.mean
-	* tBodyGyroJerkMag.std
-	* fBodyAcc.mean.X
-	* fBodyAcc.std.X
-	* fBodyAcc.mean.Y
-	* fBodyAcc.std.Y
-	* fBodyAcc.mean.Z
-	* fBodyAcc.std.Z
-	* fBodyAccJerk.mean.X
-	* fBodyAccJerk.std.X
-	* fBodyAccJerk.mean.Y
-	* fBodyAccJerk.std.Y
-	* fBodyAccJerk.mean.Z
-	* fBodyAccJerk.std.Z
-	* fBodyGyro.mean.X
-	* fBodyGyro.std.X
-	* fBodyGyro.mean.Y
-	* fBodyGyro.std.Y
-	* fBodyGyro.mean.Z
-	* fBodyGyro.std.Z
-	* fBodyAccMag.mean
-	* fBodyAccMag.std
-	* fBodyAccJerkMag.mean
-	* fBodyAccJerkMag.std
-	* fBodyGyroMag.mean
-	* fBodyGyroMag.std
-	* fBodyGyroJerkMag.mean
-	* fBodyGyroJerkMag.std
+* tBodyAcc.mean.X
+* tBodyAcc.std.X
+* tBodyAcc.mean.Y
+* tBodyAcc.std.Y
+* tBodyAcc.mean.Z
+* tBodyAcc.std.Z
+* tGravityAcc.mean.X
+* tGravityAcc.std.X
+* tGravityAcc.mean.Y
+* tGravityAcc.std.Y
+* tGravityAcc.mean.Z
+* tGravityAcc.std.Z
+* tBodyAccJerk.mean.X
+* tBodyAccJerk.std.X
+* tBodyAccJerk.mean.Y
+* tBodyAccJerk.std.Y
+* tBodyAccJerk.mean.Z
+* tBodyAccJerk.std.Z
+* tBodyGyro.mean.X
+* tBodyGyro.std.X
+* tBodyGyro.mean.Y
+* tBodyGyro.std.Y
+* tBodyGyro.mean.Z
+* tBodyGyro.std.Z
+* tBodyGyroJerk.mean.X	
+* tBodyGyroJerk.std.X
+* tBodyGyroJerk.mean.Y
+* tBodyGyroJerk.std.Y
+* tBodyGyroJerk.mean.Z
+* tBodyGyroJerk.std.Z	
+* tBodyAccMag.mean
+* tBodyAccMag.std
+* tGravityAccMag.mean
+* tGravityAccMag.std
+* tBodyAccJerkMag.mean
+* tBodyAccJerkMag.std
+* tBodyGyroMag.mean
+* tBodyGyroMag.std
+* tBodyGyroJerkMag.mean
+* tBodyGyroJerkMag.std
+* fBodyAcc.mean.X
+* fBodyAcc.std.X
+* fBodyAcc.mean.Y
+* fBodyAcc.std.Y
+* fBodyAcc.mean.Z
+* fBodyAcc.std.Z
+* fBodyAccJerk.mean.X
+* fBodyAccJerk.std.X
+* fBodyAccJerk.mean.Y
+* fBodyAccJerk.std.Y	
+* fBodyAccJerk.mean.Z
+* fBodyAccJerk.std.Z
+* fBodyGyro.mean.X
+* fBodyGyro.std.X
+* fBodyGyro.mean.Y
+* fBodyGyro.std.Y
+* fBodyGyro.mean.Z
+* fBodyGyro.std.Z
+* fBodyAccMag.mean
+* fBodyAccMag.std
+* fBodyAccJerkMag.mean
+* fBodyAccJerkMag.std
+* fBodyGyroMag.mean
+* fBodyGyroMag.std
+* fBodyGyroJerkMag.mean
+* fBodyGyroJerkMag.std
 
 Was read in from the file 'features.txt' in the original data folder 'UCI HAR Dataset' 
 
 Subsequently, this was filtered to include only those features whose names contained the strings 'mean()' and 'std()' to get the mean and standard deviation data. These strings were then altered to give valid variable names in R: parentheses were removed and dashes '-' were replaced with periods '.'
 
 
-### Value
+## Value
 
 The 'value' column in the 'data_narrow' data frame are observations of data. There were 
 
@@ -133,4 +127,4 @@ To do this, we grouped the data frame 'data_narrow' by subject, activity, and fe
 
 Because the 'value' column (see above) was normalized and bounded within [-1, 1], this may also be said about the 'mean' column.
 
-As there are 30 subjects, 6 activities, and 66 features, the data frame 'averages' has 30*6*66 = 11880 observations.
+As there are 30 subjects, 6 activities, and 66 features, the data frame 'averages' has (30)(6)(66) = 11880 observations.
